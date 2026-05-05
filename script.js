@@ -28,12 +28,18 @@ closeBtn.addEventListener('click',() =>{
 });
 
 prevBtn.addEventListener('click',()=>{
-    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    currentIndex --;
+    if(currentIndex < images.length){
+        currentIndex = 0
+    }
     showImage(currentIndex)
 });
 
 nextBtn.addEventListener('click',()=>{
- currentIndex = ( currentIndex + 1) % images.length;
+ currentIndex ++ ;
+ if(currentIndex >= images.length){
+    currentIndex = 0
+ }
  showImage(currentIndex);
 });
 
