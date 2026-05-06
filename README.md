@@ -9,7 +9,7 @@ Smooth user experience
 🛠️ Built With
 HTML5 – Structure of the gallery
 CSS3 – Grid layout and styling
-JavaScript (Optional) – Interactivity (e.g., lightbox)
+JavaScript  – Interactivity
 📂 Project Structure
 
 code-alpha-image-gallery/
